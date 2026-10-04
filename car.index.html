@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DAN MHD CAR WASH</title>
+        <LINK rel="stylesheet" href="car.style.css">
+    </head>
+    <body>
+        <header>
+            <h1>🚗 DAN MHD CAR WASH</h1>
+            <nav>
+               <a href="car.index.html" >home</a>
+               <a href="car.services.html">services</a>
+               <a href="car.contact.html">contact</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <img src="c:\Users\user\Pictures\89a578688ccceb0b78c84ea7b9dcd4ad.jpg" alt="clean car" class="hero-img">
+            <h2> your car deserves the best wash</h2>
+            <p>fast, affordable, and professional car wash services near you.</p>
+            <a href="car.contact.html"><button>book a wash</button></a>
+        </section>
+        <selection class="highlights">
+            <div class="box">
+                <h3>💧 Quality Wash</h3>
+                <p>we use premium soap equipment for a spotless finish</p>
+            </div>
+            <div class="box">
+                <h3>⌚ Fast service</h3>
+                <p>get your car wash in under 30 munites.</p>
+            </div>
+            <div class="box">
+                <h3>💰 Affordable prices</h3>
+            </div>
+        </selection>
+        <section class="gallery">
+            <h2>Our work</h2>
+            <div class="gallery-images">
+<img src="c:\Users\user\Pictures\71d83f1e522b329243806a4d4d90dc32.jpg" alt="washed car" alt="washed car" onclick="openLightbox(0)">
+<img src="c:\Users\user\Pictures\17f82706d3e929ce9b3c140789201d25.jpg" alt="washed car" alt="washed car" onclick="openLightbox(2)">
+<img src="c:\Users\user\Pictures\d92130cc43286f1088e80e155770dfb6.jpg" alt="washed car" onclick="openLightbox(2)">
+            </div>
+        </section>
+         <!-- Lightbox popup -->
+          <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <span class="prev" onclick="changeimage(-1)">&#10094;</span>
+            <img id="lightbox-img" class="lightbox-content">
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+          </div>
+        <footer>
+            <p>&copy; 2026 DAN MHD Car Wash. All rights served.</p>
+        </footer>
+        <script src="car.script.js"></script>
+    </body>
+</html>
